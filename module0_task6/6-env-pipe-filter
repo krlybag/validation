@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv | grep TERM
+printenv | grep ^TERM*
