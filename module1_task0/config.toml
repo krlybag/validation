@@ -1,4 +1,5 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Awsome Inc.'
-theme = �"ananke"
+title = 'Awesome Inc.'
+theme = "ananke"
+publishdir = 'dist/'
