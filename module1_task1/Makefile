@@ -3,7 +3,7 @@ build:
 
 .PHONY:
 clean :
-	rm -rf ./dist/ > /dev/null 2>&1
+	rm -rf dist/ > /dev/null 2>&1
 
 post:
 	cd ./content/posts/
