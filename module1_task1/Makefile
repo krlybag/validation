@@ -1,5 +1,5 @@
 build:
-	Hugo -D > /dev/null 2>&1
+	hugo -D > /dev/null 2>&1
 
 .PHONY:
 clean :
