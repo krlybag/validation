@@ -1,5 +1,4 @@
 build:
-	$(MAKE) -C ./module1_task1/
 	Hugo -D > /dev/null 2>&1
 
 .PHONY:
