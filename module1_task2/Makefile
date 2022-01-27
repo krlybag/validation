@@ -2,7 +2,7 @@ build : ##comando para ejecutar y lanzar el sitio usando go Hugo
 	hugo -D > /dev/null 2>&1
 
 .PHONY: clean
-clean :## Elimina los archivos de la carpeta dist
+clean : ## Elimina los archivos de la carpeta dist
 	rm -rf ./dist/ > /dev/null 2>&1
 
 post : ## Comando para generar un nuevo post, usa dos parametros POST_NAME y POST_TITLE
