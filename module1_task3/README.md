@@ -1,6 +1,6 @@
-# Prerequisites.
+## Prerequisites
 go Hugo lastest version, internet conection and browser
-## Lifecicle
+## Lifecycle
 This exercise contains the main functions on the  [Makefile](https://github.com/krlybag/validation/tree/main/module1_task3/Makefile)
 Basicly it has 3 functions:
 ### build:
