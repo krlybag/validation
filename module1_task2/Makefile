@@ -1,7 +1,8 @@
-build : ##comando para ejecutar y lanzar el sitio usando go Hugo 
+build : ## Comando para ejecutar y lanzar el sitio usando go Hugo 
 	hugo -D > /dev/null 2>&1
 
 .PHONY: clean
+
 clean : ## Elimina los archivos de la carpeta dist
 	rm -rf ./dist/ > /dev/null 2>&1
 
